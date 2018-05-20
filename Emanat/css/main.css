@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  margin: 0px auto;
+  height: 1000px;
+  background: url(../images/main.JPG) no-repeat;
+  position: relative;
+}
+.home .btn {
+  background: transparent;
+  width: 210px;
+  height: 156px;
+  position: absolute;
+  top: 364px;
+  left: 313px;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.personal {
+  margin: 0px auto;
+  height: 1000px;
+  background: url(../images/personal.JPG) no-repeat;
+  position: relative;
+}
+.personal button {
+  background: transparent;
+  position: absolute;
+  border-radius: 18px;
+  border: 0;
+  cursor: pointer;
+}
+.personal .azfiber {
+  top: 202px;
+  left: 20px;
+  width: 300px;
+  height: 114px;
+  background: transparent;
+  outline: none;
+  border: 0px;
+  border-radius: 20px;
+}
+.personal input {
+  font-size: 47px;
+  position: absolute;
+  top: 230px;
+  left: 336px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.personal .clear {
+  position: absolute;
+  top: 199px;
+  left: 959px;
+  width: 300px;
+  height: 121px;
+  border-radius: 20px;
+  background: transparent;
+  outline: none;
+  border: 0px;
+}
+.personal .grid {
+  display: grid;
+  background: transparent;
+  height: 358px;
+  width: 363px;
+  position: absolute;
+  top: 362px;
+  left: 440px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+}
+.personal .grid .gridItem {
+  background: transparent;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+}
+.personal .zero {
+  position: absolute;
+  width: 365px;
+  height: 103px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: transparent;
+  top: 726px;
+  left: 440px;
+  outline: none;
+  border: 0px;
+}
+.personal .back {
+  position: absolute;
+  width: 302px;
+  height: 119px;
+  background: transparent;
+  top: 883px;
+  left: 20px;
+  outline: none;
+  border: 0px;
+}
+.personal .homePage {
+  position: absolute;
+  width: 302px;
+  height: 119px;
+  background: transparent;
+  top: 883px;
+  left: 486px;
+  outline: none;
+  border: 0px;
+}
+.personal .next {
+  position: absolute;
+  width: 302px;
+  height: 119px;
+  background: transparent;
+  top: 883px;
+  left: 958px;
+  outline: none;
+  border: 0px;
+}
